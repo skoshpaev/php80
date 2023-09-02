@@ -20,7 +20,7 @@ RUN apt-get install php-imagick
 
 # Set timezone
 RUN rm /etc/localtime
-RUN ln -s /usr/share/zoneinfo/Europe/Moscow /etc/localtime
+RUN ln -s /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 RUN "date"
 
 # Set working directory
